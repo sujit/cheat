@@ -3,6 +3,6 @@
 tags: [ exception ]
 ---
 
-/* Initialize Awake exception framework routine */
+/* Awake exception framework preamble */
 let allExceptionConditionsAreFalse = recipes.exceptions.lib.allExceptionConditionsAreFalseFor
    "models.c2.modelRefId";
