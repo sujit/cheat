@@ -22,5 +22,5 @@ util.db.getActivities [] (
          <behavior2>
       )
    ) |> util.filter.byAvaDestinationAllAtOnce
-   recipes.destinations.domains.ava.likely_bad
+   recipes.destinations.domains.ava.definitely_bad
 |> workbench.stream.ofActivitiesToWorkbenchResults
