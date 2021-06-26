@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ countStream, eaql ]
+tags: [ countStream, eaql, stats ]
 ---
 
 # Returns activity counts for the time window
