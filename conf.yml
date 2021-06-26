@@ -58,7 +58,7 @@ cheatpaths:
     tags: [ personal ]
     readonly: false
   
-  # [SUJIT] List of EAQL function cheats 
+  # [SUJIT] List of Awake's useful EAQL cheats 
   - name: awake
     path: /home/<username>/.config/cheat/cheatsheets/awake
     tags: [ awake ]
