@@ -36,14 +36,14 @@
 * View a cheat
   ```bash
   cheat awake_<TAB>               # Show all cheats with `awake_` as prefix
-  cheat brute<TAB>                # Fuzzy search that auto-fills "cheat awake_bruteForce" 💖
-  cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal string matches ✨
-  cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
   cheat awake_bruteForce          # bruteForce EAQL function usage
   cheat awake_differentActivity   # chainDifferent EAQL function usage
   cheat awake_exceptionBase       # Awake exception template
   cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
   cheat awake_any                 # any built-in function usage example
+  cheat brute<TAB>                # Fuzzy search that auto-fills "cheat awake_bruteForce" 💖
+  cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal string matches ✨
+  cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
   ```
 
 * Edit/modify a cheat :warning:
