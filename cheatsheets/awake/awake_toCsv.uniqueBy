@@ -1,0 +1,13 @@
+---
+// syntax: javascript
+tags: [ csv,export,eaql,toCsv.uniqueBy ]
+---
+
+# Show unique results (e.g SMB Filenames) by a field attribute
+util.db.getActivities ["activity.smb.file.name"]
+   (activity.protocol == "SMB") |>
+   toCsv.uniqueBy "activity.smb.file.name" [
+      "activity.smb.file.name",
+      "srcIP",
+      "destIP"
+   ]
