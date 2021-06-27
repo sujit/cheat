@@ -33,6 +33,18 @@
   cheat -l -t builtins        # Show builtins e.g. any, all
   ```
 
+* View a cheat
+  ```bash
+  cheat awake_<TAB>               # Show all cheats with `awake_` as prefix
+  cheat brute<TAB>                # Fuzzy search that auto-fills "cheat awake_bruteForce" 💖
+  cheat awake_bruteForce          # bruteForce EAQL function usage
+  cheat awake_differentActivity   # chainDifferent EAQL function usage
+  cheat awake_exceptionBase       # Awake exception template
+  cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
+  cheat awake_any                 # any built-in function usage example
+  
+  ```
+
 * Edit/modify a cheat
   ```bash
   cheat -e awake_bruteForce
