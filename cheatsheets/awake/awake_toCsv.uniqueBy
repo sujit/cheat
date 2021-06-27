@@ -11,3 +11,13 @@ util.db.getActivities ["activity.smb.file.name"]
       "srcIP",
       "destIP"
    ]
+
+# Uniquify results "without" including "destIP" in the output
+util.db.getActivities [
+   "activity.tls.handshake.client.server_name",
+   "activity.tls.server.certificate.valid_to"]
+   (activity.protocol == "TLS") |>
+   toCsv.uniqueBy "destIP" [
+      "activity.tls.handshake.client.server_name",
+      "activity.tls.server.certificate.valid_to"
+   ]
