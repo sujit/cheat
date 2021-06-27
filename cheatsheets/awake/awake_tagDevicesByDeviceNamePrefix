@@ -4,7 +4,3 @@ tags: [ tag,tagging,eaql,tagDevicesByDeviceNamePrefix ]
 ---
 # Find devices starting with "LAP" prefix and replace them with "Laptop"
 util.db.tagDevicesByDeviceNamePrefix "Laptop" "LAP"
-
-# Pass lists of device name prefixes (instead of one)
-util.db.tagDevicesByDeviceNamePrefixes "Laptop" ["LAP", "MBP"]
-util.db.tagDevicesByDeviceNamePrefixes "Workstation" ["LAP", "MBP", "WORK", "DESK"]
