@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ csv,export,eaql,toCsv.uniqueBy ]
+tags: [ csv,export,eaql,toCsv.uniqueBy,toCsv ]
 ---
 
 # Show unique results (e.g SMB Filenames) by a field attribute
