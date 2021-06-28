@@ -53,7 +53,7 @@
   ```
   > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
-# Supported OS
+# Supported OS/Arch
 
 * Linux
 * ARM
