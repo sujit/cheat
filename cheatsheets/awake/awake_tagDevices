@@ -4,8 +4,9 @@ tags: [ tag,tagging,eaql,tagDevices ]
 ---
 # Tag devices based on UUIDs
 # NOTE: Better alternative: "util.db.tagDevicesThatMatchQuery"
-util.db.tagDevices "scanner"
+util.db.tagDevices "Scanner"
 [
+   /* Device UUIDs */
    acce70ea-165d-26d8-d745-d3b6280d160a,
    627e445d-df25-4f6f-9f96-f884daf1ad0d
 ]
