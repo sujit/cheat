@@ -27,6 +27,7 @@
   ```
   cheat -l -t awake           # Show all (global catch-all) awake tagged functions
   cheat -l -t ava             # AVA Functions
+  cheat -l -t stats           # Functions return statistical data
   cheat -l -t bruteForce      # Bruteforce EAQL functions (chainSame tag works too)
   cheat -l -t chainDifferent  # chainDifferent EAQL functions (chainDifferent tag works too)
   cheat -l -t [tag|tagging]   # EAQL functions related to device tagging
