@@ -1,7 +1,0 @@
----
-// syntax: javascript
-tags: [ getAllIPsUsedByDomainName, eaql, stats ]
----
-
-# Get list of all IP addresses that accessed a domain
-util.db.getAllIPsUsedByDomainName "github.com"

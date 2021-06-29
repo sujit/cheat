@@ -1,6 +1,0 @@
----
-// syntax: javascript
-tags: [ tag,tagging,eaql,tagDevicesByDeviceNamePrefix ]
----
-# Find devices starting with "LAP" prefix and replace them with "Laptop"
-util.db.tagDevicesByDeviceNamePrefix "Laptop" "LAP"

@@ -1,8 +1,0 @@
----
-// syntax: javascript
-tags: [ getIpStats, eaql, stats ]
----
-
-# IP Statistics (first/last seen, device/activity count)
-util.db.getIpStats [172.16.1.254]
-util.db.getIpStats [172.16.1.254, 172.16.1.10]

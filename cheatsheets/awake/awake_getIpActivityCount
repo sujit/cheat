@@ -1,7 +1,0 @@
----
-// syntax: javascript
-tags: [ getIpActivityCount, eaql, stats ]
----
-
-# IP activity count
-util.db.getIpActivityCount (172.16.1.254)
