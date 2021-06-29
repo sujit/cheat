@@ -1,0 +1,10 @@
+---
+// syntax: javascript
+tags: [ any,builtins ]
+---
+# Several "any" built-in usage types:
+  * (any ["Written", "Created"] (in activity.smb.file.actions))
+  * (any ["Backup", "Awake/Backup_Servers", "Veeam"] (\x -> x in device.tags))
+  * (any config.networks.eduAndResearch (contains activity.ip.source))
+  * (any activity.http.response.cookie.value (like r/test/))
+  * (any activity.dns.response.answer.ttl (\x -> x < 100.0))

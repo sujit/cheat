@@ -1,0 +1,19 @@
+---
+// syntax: javascript
+tags: [ chainDifferent, eaql, differentActivity ]
+---
+
+# Match (ordered) activities within 2s
+constrainQueriesWithDevices [
+   allExceptionConditionsAreFalse && <behavior1>,
+   allExceptionConditionsAreFalse && <behavior2>
+] |> util.filter.differentActivityWithinTimeWindowBySourceDevice 2s
+|> workbench.stream.ofActivitiesToWorkbenchResults
+
+
+# Match (ordered) activities within 2s where dest_ip are same 
+constrainQueriesWithDevices [
+   allExceptionConditionsAreFalse && <behavior1>,
+   allExceptionConditionsAreFalse && <behavior2>
+] |> util.filter.differentActivityWithinTimeWindowBySourceDeviceByDestinationIP 2s
+|> workbench.stream.ofActivitiesToWorkbenchResults

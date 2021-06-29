@@ -1,0 +1,9 @@
+---
+// syntax: javascript
+tags: [ getActivities, eaql ]
+---
+
+# Pull activity records from the DB
+util.db.getActivities [] (
+   activity.smb.file.name like r/example/
+) |> workbench.stream.ofActivitiesToWorkbenchResults

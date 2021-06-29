@@ -1,0 +1,7 @@
+---
+// syntax: javascript
+tags: [ tag,tagging,eaql,tagDevicesByDeviceNameSuffixes ]
+---
+# Find list of devices with suffix "LAP" or "MBP" and re-tag them with "Laptop"
+util.db.tagDevicesByDeviceNameSuffixes "Laptop" ["LAP", "MBP"]
+util.db.tagDevicesByDeviceNameSuffixes "Workstation" ["LAP", "MBP", "WORK", "DESK"]
