@@ -1,0 +1,20 @@
+---
+// syntax: javascript
+tags: [ getCharacteristicActivities, eaql ]
+---
+
+# Pull device characteristics artifacts "first" followed-by
+# their activity matches.
+# NOTE: This EAQL functionality is not 100% functional, and
+#       currently under investingation by the EAQL team.
+util.db.getCharacteristicActivities
+(
+   activity.dcerpc.call.interface in [IREMOTEWINSPOOL, SPOOLSS] &&
+   device.characteristic.artifacts.count < 50
+)
+(
+   /* RAD attributes to validate */
+   \x -> x#fgValueCount < 100 &&
+   x#fieldName == "device.characteristic.dcerpc.call.opnum"
+)
+|> workbench.stream.ofActivitiesToWorkbenchResults
