@@ -1,4 +1,4 @@
-% bruteForce,chainSame,eaql,awake
+% bruteForce,bruteForceDetectionBy,chainSame,eaql,awake
 
 # Bruteforce detection (300 occurrences in 5s)
 util.db.bruteForceDetectionBy [
