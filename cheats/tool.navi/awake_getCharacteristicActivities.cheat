@@ -1,9 +1,6 @@
-% awake, getCharacteristicActivities, eaql
+% getCharacteristicActivities,eaql,awake
 
-# Pull device characteristics artifacts "first" followed-by
-# their activity matches.
-# NOTE: This EAQL functionality is not 100% functional, and
-#       currently under investingation by the EAQL team.
+# (Experimental) Pull device characteristics artifacts "first" followed-by activities
 util.db.getCharacteristicActivities
 (
    activity.dcerpc.call.interface in [IREMOTEWINSPOOL, SPOOLSS] &&
@@ -15,4 +12,3 @@ util.db.getCharacteristicActivities
    x#fieldName == "device.characteristic.dcerpc.call.opnum"
 )
 |> workbench.stream.ofActivitiesToWorkbenchResults
-

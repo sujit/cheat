@@ -1,10 +1,12 @@
-% awake, bruteForce, eaql, chainSame
+% bruteForce,chainSame,eaql,awake
 
-# Match if the same activity takes place 300 times (within 5s)
-# NOTE: "activity.ip.destination" is optional
-util.db.bruteForceDetectionBy ["device", "activity.ip.destination"]
-   300  /* No. of activities */
-   5s   /* Time window */
+# Bruteforce detection (300 occurrences in 5s)
+util.db.bruteForceDetectionBy [
+   "device",
+   "activity.ip.destination"]    /* "activity.ip.destination" is optional */
+   300                           /* No. of occurrences */
+   5s                            /* Time threshold */
    (
-      allExceptionConditionsAreFalse && AQL.Expression
+      allExceptionConditionsAreFalse &&
+      AQL.Expression
    )

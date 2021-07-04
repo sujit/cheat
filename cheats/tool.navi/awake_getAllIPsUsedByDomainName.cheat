@@ -1,4 +1,4 @@
-% awake, getAllIPsUsedByDomainName, eaql, stats
+% stats,getAllIPsUsedByDomainName,eaql,awake
 
 # Get list of all IP addresses that accessed a domain
 util.db.getAllIPsUsedByDomainName "github.com"

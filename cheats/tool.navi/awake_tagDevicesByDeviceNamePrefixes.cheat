@@ -1,4 +1,4 @@
-% awake, tag, tagging, eaql, tagDevicesByDeviceNamePrefixes
+% tag,tagging,tagDevicesByDeviceNamePrefixes,awake
 
 # Find list of devices with prefix "LAP" or "MBP" and re-tag them with "Laptop"
 util.db.tagDevicesByDeviceNamePrefixes "Laptop" ["LAP", "MBP"]

@@ -1,4 +1,4 @@
-% awake, getDevices, eaql, stats
+% stats,getDevices,eaql,awake
 
 # Device details (verbose)
 util.db.getDevices (activity.protocol == "HTTP" && device.ip == 172.16.1.10)

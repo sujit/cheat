@@ -1,4 +1,4 @@
-% awake, csv, export, eaql, toCsv
+% csv,toCsv,eaql,awake
 
 # View SMB filenames, Source, Destination IPs 
 util.db.getActivities ["activity.smb.file.name"]

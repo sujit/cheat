@@ -1,4 +1,4 @@
-% awake, chainDifferent, eaql, differentActivity
+% differentActivity,chainDifferent,eaql,awake
 
 # Match (ordered) activities within 2s
 constrainQueriesWithDevices [
@@ -6,7 +6,6 @@ constrainQueriesWithDevices [
    allExceptionConditionsAreFalse && AQL.Expression2
 ] |> util.filter.differentActivityWithinTimeWindowBySourceDevice 2s
 |> workbench.stream.ofActivitiesToWorkbenchResults
-
 
 # Match (ordered) activities within 2s where dest_ip are same 
 constrainQueriesWithDevices [

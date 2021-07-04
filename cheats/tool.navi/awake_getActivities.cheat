@@ -1,4 +1,4 @@
-% awake, getActivities, eaql
+% getActivities,eaql,awake
 
 # Pull activity records from the DB
 util.db.getActivities [] (

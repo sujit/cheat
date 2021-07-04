@@ -1,7 +1,6 @@
-% awake, countStream, eaql, stats
+% stats,countStream,eaql,awake
 
 # Returns activity counts for the time window
 util.db.getActivities [] (
    activity.smb.file.name like r/example/
 ) |> countStream
-

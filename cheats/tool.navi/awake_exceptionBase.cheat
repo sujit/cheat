@@ -1,5 +1,5 @@
-% awake, exception
+% exception,awake
 
-/* Initialize Awake exception framework routine */
+# Awake exception framework base preamble template
 let allExceptionConditionsAreFalse = recipes.exceptions.lib.allExceptionConditionsAreFalseFor
    "models.c2.modelRefId";

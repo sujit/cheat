@@ -1,6 +1,6 @@
-% awake, ava, eaql
+% ava,eaql,awake
 
-# Call AVA (Domain/IP likely to be malicious) against custom conditions 
+# Call AVA (Domain/IP likely to be malicious)
 util.db.getActivities [] (
    allExceptionConditionsAreFalse &&
       (
@@ -11,7 +11,7 @@ util.db.getActivities [] (
    recipes.destinations.domains.ava.likely_bad
 |> workbench.stream.ofActivitiesToWorkbenchResults
 
-# Call AVA (Domain/IP malicious with high confidence) against custom conditions
+# Call AVA (Domain/IP malicious with high confidence)
 util.db.getActivities [] (
    allExceptionConditionsAreFalse &&
       (

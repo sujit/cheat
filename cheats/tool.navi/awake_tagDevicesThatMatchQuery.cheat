@@ -1,7 +1,6 @@
-% awake, tag, tagging, eaql, tagDevicesThatMatchQuery
+% tag,tagging,tagDevicesThatMatchQuery,eaql,awake
 
-# Tag devices based on a custom query
-# NOTE: Better alternative to "util.db.tagDevices"
+# Tag devices based on a custom query (Better than "util.db.tagDevices")
 util.db.tagDevicesThatMatchQuery "Vulnerable OS" (
    device.operating_system like r/XP/ &&
    device.operating_system like r/Windows/
