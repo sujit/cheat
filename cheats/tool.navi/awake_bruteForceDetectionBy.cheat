@@ -1,11 +1,9 @@
 % bruteForce,bruteForceDetectionBy,eaql,awake
 
 # Bruteforce detection
-util.db.bruteForceDetectionBy [
-   "device",
-   "activity.ip.destination" ]   /* "activity.ip.destination" is optional */
-   300                           /* No. of occurrences */
-   5s                            /* Time threshold */
+util.db.bruteForceDetectionBy ["device", "activity.ip.destination"]
+   300      /* No. of occurrences */
+   5s       /* Time threshold */
    (
       allExceptionConditionsAreFalse &&
       AQL.Expression
