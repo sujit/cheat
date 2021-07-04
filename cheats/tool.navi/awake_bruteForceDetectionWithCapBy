@@ -1,0 +1,11 @@
+% bruteForce,bruteForceDetectionWithCapBy,eaql,awake
+
+# Bruteforce detection with n-activity capping (optimized)
+util.db.bruteForceDetectionWithCapBy [
+   "device", "activity.ip.destination" ]
+   1
+   400
+   5s
+   ( allExceptionConditionsAreFalse &&
+      AQLExpression
+   )
