@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ bruteForce, eaql, chainSame ]
+tags: [ bruteForce, chainSame, eaql ]
 ---
 
 # Match if the same activity takes place 300 times (within 5s)
@@ -9,5 +9,16 @@ util.db.bruteForceDetectionBy ["device", "activity.ip.destination"]
    300  /* No. of activities */
    5s   /* Time window */
    (
-      allExceptionConditionsAreFalse && <custom_conditions>
+      allExceptionConditionsAreFalse &&
+      <AQLExpression>
+   )
+
+# Bruteforce detection with activity capping (optimized)
+util.db.bruteForceDetectionWithCapBy ["device", "activity.ip.destination"]
+   1
+   300      /* No. of occurrences */
+   5s       /* Time threshold */
+   (
+      allExceptionConditionsAreFalse &&
+      <AQLExpression>
    )
