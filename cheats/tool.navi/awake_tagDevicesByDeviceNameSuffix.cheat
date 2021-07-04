@@ -1,4 +1,4 @@
-% tag,tagging,tagDevicesByDeviceNameSuffix,eaql,awake
+% tagging,tagDevicesByDeviceNameSuffix,eaql,awake
 
 # Find devices starting with "LAP" suffix and replace them with "Laptop"
 util.db.tagDevicesByDeviceNameSuffix "Laptop" "LAP"

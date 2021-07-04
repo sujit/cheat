@@ -1,4 +1,4 @@
-% tag,tagging,tagDevices,eaql,awake
+% tagging,tagDevices,eaql,awake
 
 # Tag devices via UUIDs (Better opt: "util.db.tagDevicesThatMatchQuery")
 util.db.tagDevices "scanner"

@@ -1,4 +1,4 @@
-% tag,tagging,tagDevicesBySubnet,eaql,awake
+% tagging,tagDevicesBySubnet,eaql,awake
 
 # Tag devices by CIDR/Subnets
 util.db.tagDevicesBySubnet "Guests" 10.10.0.0/16

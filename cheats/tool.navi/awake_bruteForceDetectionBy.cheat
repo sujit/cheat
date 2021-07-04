@@ -1,9 +1,9 @@
-% bruteForce,bruteForceDetectionBy,chainSame,eaql,awake
+% bruteForce,bruteForceDetectionBy,eaql,awake
 
-# Bruteforce detection (300 occurrences in 5s)
+# Bruteforce detection
 util.db.bruteForceDetectionBy [
    "device",
-   "activity.ip.destination"]    /* "activity.ip.destination" is optional */
+   "activity.ip.destination" ]   /* "activity.ip.destination" is optional */
    300                           /* No. of occurrences */
    5s                            /* Time threshold */
    (

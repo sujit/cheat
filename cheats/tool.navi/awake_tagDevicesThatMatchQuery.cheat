@@ -1,4 +1,4 @@
-% tag,tagging,tagDevicesThatMatchQuery,eaql,awake
+% tagging,tagDevicesThatMatchQuery,eaql,awake
 
 # Tag devices based on a custom query (Better than "util.db.tagDevices")
 util.db.tagDevicesThatMatchQuery "Vulnerable OS" (

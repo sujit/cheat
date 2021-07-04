@@ -1,4 +1,4 @@
-% tag,tagging,tagDevicesByDeviceNameSuffixes,eaql,awake
+% tagging,tagDevicesByDeviceNameSuffixes,eaql,awake
 
 # Find list of devices with suffix "LAP" or "MBP" and re-tag them with "Laptop"
 util.db.tagDevicesByDeviceNameSuffixes "Laptop" ["LAP", "MBP"]
