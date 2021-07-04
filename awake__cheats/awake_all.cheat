@@ -1,0 +1,6 @@
+% awake, all, builtins
+
+# Several "all" built-in usage types:
+  * (all ["Written", "Created"] (in activity.smb.file.actions))
+  * (all ["Backup", "Awake/Backup_Servers", "Veeam"] (\x -> x in device.tags))
+  * (all config.networks.eduAndResearch (contains activity.ip.source))

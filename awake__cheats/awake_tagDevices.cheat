@@ -1,0 +1,17 @@
+% awake, tag, tagging, eaql, tagDevices
+
+# Tag devices based on UUIDs
+# NOTE: Better alternative: "util.db.tagDevicesThatMatchQuery"
+util.db.tagDevices "scanner"
+[
+   acce70ea-165d-26d8-d745-d3b6280d160a,
+   627e445d-df25-4f6f-9f96-f884daf1ad0d
+]
+
+# Tag devices based on a custom query
+# NOTE: Better alternative: "util.db.tagDevicesThatMatchQuery"
+let vulnDevices = util.db.getDevices (
+   device.operating_system like r/XP/ &&
+   device.operating_system like r/Windows/
+);
+util.db.tagDevices "Vulnerable OS" vulnDevices

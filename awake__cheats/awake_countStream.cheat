@@ -1,0 +1,7 @@
+% awake, countStream, eaql, stats
+
+# Returns activity counts for the time window
+util.db.getActivities [] (
+   activity.smb.file.name like r/example/
+) |> countStream
+
