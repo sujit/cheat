@@ -13,9 +13,9 @@ util.db.bruteForceDetectionBy ["device", "activity.ip.destination"]
       <AQLExpression>
    )
 
-# Bruteforce detection with activity capping (optimized)
+# Bruteforce detection with cluster capping (optimized)
 util.db.bruteForceDetectionWithCapBy ["device", "activity.ip.destination"]
-   1
+   1        /* Cluster capping limit (e.g stop after finding one cluster) */
    300      /* No. of occurrences */
    5s       /* Time threshold */
    (
