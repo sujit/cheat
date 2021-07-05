@@ -1,0 +1,11 @@
+---
+// syntax: javascript
+tags: [ visualization, dceRpcOpnumBarChart, eaql ]
+---
+
+# View bar chart for a DCERPC Endpoint map identifier
+  * dceRpcOpnumBarChart (activity.dcerpc.call.interface == SPOOLSS)
+  * dceRpcOpnumBarChart (activity.dcerpc.call.interface == DRSUAPI)
+  * dceRpcOpnumBarChart (activity.dcerpc.call.interface == NETLOGON)
+  * dceRpcOpnumBarChart (activity.dcerpc.call.interface == EPMAPPER)
+  * dceRpcOpnumBarChart (activity.dcerpc.call.interface == LSARPC)
