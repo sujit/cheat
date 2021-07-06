@@ -3,7 +3,7 @@
 Installation
 ---------------------------
 1. Download "cheat" binary as per your OS from the [official repo](https://github.com/cheat/cheat/releases)
-2. Run the following set of commands (linux):
+2. Run the following commands (linux) to install:
     ```bash
     $wget https://github.com/cheat/cheat/releases/download/4.2.2/cheat-linux-amd64.gz
     $gzip -dk cheat-linux-amd64.gz
