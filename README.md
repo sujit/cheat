@@ -1,5 +1,7 @@
-# Install
+# cheat
 
+Installation
+---------------------------
 1. Download "cheat" binary as per your OS from the [official repo](https://github.com/cheat/cheat/releases)
 2. Run the following set of commands (linux):
     ```bash
@@ -20,6 +22,7 @@
 5. Add a custom entry (Awake's cheat files):
     ```yaml
       # New custom entry
+      # Awake cheats: https://github.com/sujit/cheat/tree/main/cheats/tool.cheat
       - name: awake
         path: /home/<username>/.config/cheat/cheatsheets/awake
         tags: [ awake ]
@@ -27,12 +30,12 @@
     ```
 6. That's it!
 
-
-# Commands
+Usage
+---------------------------
 
 * Show all tags in the local DB
   ```bash
-  cheat -T
+  cheat -T  # Show all tags
   ```
 
 * Show all cheats (regardless of tags)
@@ -41,15 +44,17 @@
   ```
 
 * Search tags
-
   ```
-  cheat -l -t awake           # Show all (global catch-all) awake tagged functions
-  cheat -l -t ava             # AVA Functions
-  cheat -l -t stats           # EAQL functions returning statistical data
-  cheat -l -t bruteForce      # Bruteforce EAQL functions (chainSame tag works too)
-  cheat -l -t chainDifferent  # chainDifferent EAQL functions (chainDifferent tag works too)
-  cheat -l -t [tag|tagging]   # EAQL functions related to device tagging
-  cheat -l -t builtins        # Show builtins e.g. any, all
+  cheat -l -t <tagname>         # Custom tag name goes here
+  cheat -l -t awake             # Show all (global catch-all) awake tagged functions
+  cheat -l -t ava               # AVA Functions
+  cheat -l -t stats             # EAQL functions returning statistical data
+  cheat -l -t visualization     # Visualization
+  cheat -l []-t bruteForce        # Bruteforce EAQL functions
+  cheat -l -t [anomaly|rad]     # Threat hunting anomaly functions (anomaly,rad,hunting)
+  cheat -l -t differentActivity # Chaining EAQL functions
+  cheat -l -t tagging           # Device tagging EAQL functions
+  cheat -l -t builtins          # Show builtins e.g. any, all
   ```
 
 * View a cheat
@@ -70,6 +75,8 @@
   cheat -e awake_bruteForce
   ```
   > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
+
+
 
 # Supported OS
 
