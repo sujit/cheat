@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ anomaly, hunting, coverageCount, fgCount, rad, eaql, awake ]
+tags: [ anomaly, hunting, coverageCount, fgCount, rad, eaql ]
 ---
 
 # Find characteristic ASN RAD traffic, not from a browser (coverageCount)
