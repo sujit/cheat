@@ -84,3 +84,5 @@ Usage
 * Mac OS X
 * Windows
 
+
+![example](./screenshots/test.svg)
