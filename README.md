@@ -19,7 +19,7 @@ Installation
     ```bash
     $vim /home/<username>/.config/cheat/conf.yml
     ```
-5. Add a custom entry (Awake's cheat files):
+5. Add a new and custom entry (Awake's cheat files):
     ```yaml
       # New custom entry
       # Awake cheats: https://github.com/sujit/cheat/tree/main/cheats/tool.cheat
