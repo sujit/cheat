@@ -83,6 +83,3 @@ Usage
 * Linux
 * Mac OS X
 * Windows
-
-
-![example](./screenshots/test.svg)
