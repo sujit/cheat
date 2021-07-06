@@ -2,29 +2,29 @@
 
 1. Download "cheat" binary as per your OS from the [official repo](https://github.com/cheat/cheat/releases)
 2. Run the following set of commands (linux):
-  ```bash
-  $wget https://github.com/cheat/cheat/releases/download/4.2.2/cheat-linux-amd64.gz
-  $gzip -dk cheat-linux-amd64.gz
-  $sudo mv cheat-linux-amd64/cheat /usr/local/bin/
-  $chmod +x /usr/local/bin/cheat
-  $cheat # Choose 'Yes` to generate the default config YML
-  ```
+    ```bash
+    $wget https://github.com/cheat/cheat/releases/download/4.2.2/cheat-linux-amd64.gz
+    $gzip -dk cheat-linux-amd64.gz
+    $sudo mv cheat-linux-amd64/cheat /usr/local/bin/
+    $chmod +x /usr/local/bin/cheat
+    $cheat # Choose 'Yes` to generate the default config YML
+    ```
 3. Create a new folder named "awake"
-  ```bash
-  mkdir -p /home/<username>/.config/cheat/cheatsheets/awake
-  ```
+    ```bash
+    mkdir -p /home/<username>/.config/cheat/cheatsheets/awake
+    ```
 4. Open the "cheat" tool's config file
-  ```bash
-  $vim /home/<username>/.config/cheat/conf.yml
-  ```
-5. Add a custom entry to this config file:
-  ```yaml
-    # New custom entry goes here
-    - name: awake
-      path: /home/<username>/.config/cheat/cheatsheets/awake
-      tags: [ awake ]
-      readonly: false
-  ```
+    ```bash
+    $vim /home/<username>/.config/cheat/conf.yml
+    ```
+5. Add a custom entry (Awake's cheat files):
+    ```yaml
+      # New custom entry
+      - name: awake
+        path: /home/<username>/.config/cheat/cheatsheets/awake
+        tags: [ awake ]
+        readonly: false
+    ```
 6. That's it!
 
 
