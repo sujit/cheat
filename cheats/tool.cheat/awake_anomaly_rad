@@ -1,0 +1,19 @@
+---
+// syntax: javascript
+tags: [ anomaly, hunting, coverageCount, fgCount, rad, eaql, awake ]
+---
+
+# Find characteristic ASN RAD traffic, not from a browser (coverageCount)
+recipes.hunting.machineLearning.CharacteristicArtifactMatchingAQL.coverageCountLessThan 5
+   "device.characteristic.ip.autonomous_system.description" 24h (
+      recipes.protocols.tls_not_a_browser ||
+      recipes.protocols.http_not_a_browser
+   )
+
+# Find characteristic ASN RAD traffic, not from a browser (fgCount)
+recipes.hunting.machineLearning.CharacteristicArtifactMatchingAQL.foregroundCountLessThan 5
+   "device.characteristic.ip.autonomous_system.description" 24h (
+      recipes.protocols.tls_not_a_browser ||
+      recipes.protocols.http_not_a_browser
+   )
+
