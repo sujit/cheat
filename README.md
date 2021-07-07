@@ -2,7 +2,10 @@
 
 Installation
 ---------------------------
-1. Download "cheat" binary as per your OS from the [official repo](https://github.com/cheat/cheat/releases)
+1. Download the "cheat" binary:
+    * [linux](https://github.com/cheat/cheat/releases/download/4.2.2/cheat-linux-amd64.gz)
+    * [mac](https://github.com/cheat/cheat/releases/download/4.2.2/cheat-darwin-amd64.gz)
+    * [windows](https://github.com/cheat/cheat/releases/download/4.2.2/cheat-windows-amd64.exe.zip)
 2. Run the following commands (linux) to install:
     ```bash
     $wget https://github.com/cheat/cheat/releases/download/4.2.2/cheat-linux-amd64.gz
@@ -77,9 +80,26 @@ Usage
   > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
+# navi
 
-# Supported OS
-
-* Linux
-* Mac OS X
-* Windows
+Installation
+---------------------------
+1. Download both the "fzf", "navi" binaries:
+    * fzf
+        * [linux](https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz)
+        * [mac](https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-darwin_amd64.zip)
+        * [windows](https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-windows_amd64.zip)
+    * navi
+        * [linux](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-unknown-linux-musl.tar.gz)
+        * [mac](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-apple-darwin.tar.gz)
+        * [windows](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-pc-windows-gnu.zip)
+2. Run the following commands (linux) to install:
+    ```bash
+    $wget https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz
+    $tar -zxvf fzf-0.27.2-linux_amd64.tar.gz
+    $tar -zxvf https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-unknown-linux-musl.tar.gz
+    $sudo mv fzf-0.27.2-linux_amd64/fzf /usr/local/bin/
+    $sudo mv navi-v2.16.0-x86_64-unknown-linux-musl/navi /usr/local/bin/
+    $chmod +x /usr/local/bin/fzf /usr/local/bin/navi
+    $navi
+    ```
