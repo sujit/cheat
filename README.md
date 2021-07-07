@@ -1,7 +1,9 @@
-# cheat
+***cheat***
+========================
 
-Installation
+*Installation*
 ---------------------------
+
 1. Download the "cheat" binary:
     * [linux](https://github.com/cheat/cheat/releases/download/4.2.2/cheat-linux-amd64.gz)
     * [mac](https://github.com/cheat/cheat/releases/download/4.2.2/cheat-darwin-amd64.gz)
@@ -33,7 +35,7 @@ Installation
     ```
 6. That's it!
 
-Usage
+*Usage*
 ---------------------------
 
 * Show all tags in the local DB
@@ -80,10 +82,12 @@ Usage
   > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
-# navi
+***navi***
+========================
 
-Installation
----------------------------
+*Installation*
+------------------------
+
 1. Download both the "fzf", "navi" binaries:
     * fzf
         * [linux](https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz)
@@ -103,3 +107,8 @@ Installation
     $chmod +x /usr/local/bin/fzf /usr/local/bin/navi
     $navi
     ```
+
+*Usage*
+------------------------
+
+* Test message
