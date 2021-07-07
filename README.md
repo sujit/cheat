@@ -1,4 +1,4 @@
-***cheat***
+cheat
 ========================
 
 *Installation*
@@ -82,7 +82,7 @@
   > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
-***navi***
+navi
 ========================
 
 *Installation*
