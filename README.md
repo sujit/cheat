@@ -6,7 +6,7 @@
    * [Installation](#naviinstall)
    * [Usage](#naviusage)
 
-cheat <a name="cheat"></a>
+:dart: cheat <a name="cheat"></a>
 ========================
 
 *Installation* <a name="cheatinstall"></a>
@@ -91,7 +91,7 @@ cheat -e awake_bruteForce
 > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
-navi <a name="navi"></a>
+:dart: navi <a name="navi"></a>
 ========================
 
 *Installation* <a name="naviinstall"></a>
