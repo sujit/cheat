@@ -25,15 +25,19 @@
     $chmod +x /usr/local/bin/cheat
     $cheat # Choose 'Yes` to generate the default config YML
     ```
-3. Create a new folder named "awake"
+3. View cheats path
     ```bash
-    mkdir -p /home/<username>/.config/cheat/cheatsheets/awake
+    $cheat -d
     ```
-4. Open the "cheat" tool's config file
+5. Create a new folder named "awake"
+    ```bash
+    $mkdir -p /home/<username>/.config/cheat/cheatsheets/awake
+    ```
+4. Open "cheat" YAML config file
     ```bash
     $vim /home/<username>/.config/cheat/conf.yml
     ```
-5. Add a new and custom entry (Awake's cheat files):
+5. Add a new and custom entry for Awake cheats
     ```yaml
     # New custom entry
     # Awake cheats: https://github.com/sujit/cheat/tree/main/cheats/tool.cheat
