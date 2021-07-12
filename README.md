@@ -1,15 +1,15 @@
 # Table of Contents
-1. [Cheat](cheat#cheat)
-   * [Example2](cheat#installation)
-   * [Usage](cheat#installation)
-2. [Navi](navi#navi)
-   * [Example2](navi#installation)
-   * [Usage](navi#installation)
+1. [Cheat](#cheat)
+   * [Installation](#cheatinstall)
+   * [Usage](#cheatusage)
+2. [Navi](#navi)
+   * [Installation](#naviinstall)
+   * [Usage](#naviusage)
 
-cheat
+cheat <a name="cheat"></a>
 ========================
 
-*Installation*
+*Installation* <a name="cheatinstall"></a>
 ---------------------------
 
 1. Download the "cheat" binary:
@@ -44,7 +44,7 @@ cheat
 6. Copy all cheats flat files from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.cheat)
 7. Execute `cheat awake_<TAB>` to show all Awake cheats! 😻
 
-*Usage*
+*Usage* <a name="cheatusage"></a>
 ---------------------------
 
 * Show all tags in the local DB
@@ -91,10 +91,10 @@ cheat -e awake_bruteForce
 > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
-navi
+navi <a name="navi"></a>
 ========================
 
-*Installation*
+*Installation* <a name="naviinstall"></a>
 ------------------------
 
 1. Download the binaries:
@@ -120,7 +120,7 @@ navi
     ```
 3. Copy all navi-related cheats from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.navi)
 
-*Usage*
+*Usage* <a name="naviusage"></a>
 ------------------------
 
 *  ```bash
@@ -138,9 +138,3 @@ navi
    * differentactivity
    * getactivities
 * Pressing `<Enter>` would STDOUT the cheat for the selected option.
-
-
-| Tool        | HOWTO steps                                  |
-| ----------- | ------------------------------------------   |
-| cheat       | [URL](https://github.com/sujit/cheat#cheat)  |
-| navi        | [URL](https://github.com/sujit/cheat#navi)   |
