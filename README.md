@@ -59,16 +59,16 @@
 
 * Search tags
   ```bash
-  cheat -l -t <tagname>         # Custom tag name goes here
-  cheat -l -t awake             # Show all (global catch-all) awake tagged functions
-  cheat -l -t ava               # AVA Functions
-  cheat -l -t stats             # EAQL functions returning statistical data
-  cheat -l -t visualization     # Visualization
-  cheat -l -t bruteForce        # Bruteforce EAQL functions
-  cheat -l -t [anomaly|rad]     # Threat hunting anomaly functions (anomaly,rad,hunting)
-  cheat -l -t differentActivity # Chaining EAQL functions
-  cheat -l -t tagging           # Device tagging EAQL functions
-  cheat -l -t builtins          # Show builtins e.g. any, all
+  cheat -l -t <tagname>           # Custom tag name goes here
+  cheat -l -t awake               # Show all (global catch-all) awake tagged functions
+  cheat -l -t ava                 # AVA Functions
+  cheat -l -t stats               # EAQL functions returning statistical data
+  cheat -l -t visualization       # Visualization
+  cheat -l -t bruteForce          # Bruteforce EAQL functions
+  cheat -l -t [anomaly|rad]       # Threat hunting anomaly functions (anomaly,rad,hunting)
+  cheat -l -t differentActivity   # Chaining EAQL functions
+  cheat -l -t tagging             # Device tagging EAQL functions
+  cheat -l -t builtins            # Show builtins e.g. any, all
   ```
 
 * View a cheat
@@ -144,6 +144,7 @@
    * stats
    * visualization
    * anomaly
+   * rad
    * builtins
    * ava
    * bruteforce
