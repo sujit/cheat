@@ -58,7 +58,7 @@ cheat -l
 ```
 
 * Search tags
-```
+```bash
 cheat -l -t <tagname>         # Custom tag name goes here
 cheat -l -t awake             # Show all (global catch-all) awake tagged functions
 cheat -l -t ava               # AVA Functions
@@ -84,10 +84,11 @@ cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal 
 cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
 ```
 
-* :warning: Edit/modify a cheat
+* Edit/modify a cheat :warning:
 ```bash
 cheat -e awake_bruteForce
 ```
+> :bangbang: **NOTE:**
 > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
@@ -107,7 +108,8 @@ cheat -e awake_bruteForce
         * [mac](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-apple-darwin.tar.gz)
         * [windows](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-pc-windows-gnu.zip)
 
-    :warning: **NOTE:** `navi` won't work without `fzf` being installed.
+    > :bangbang: **NOTE:** <br/>
+    > `navi` won't work without `fzf` being installed.
 2. Run the following commands (linux) to install:
     ```bash
     $wget https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz
