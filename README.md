@@ -147,7 +147,7 @@
 
 :dart: Search Tags <a name="tags"></a>
 ========================
-In generally, even though we can search the body part of cheats in their own ways via `cheat` or `navi` tool in-built options, but using tags would help us find things even much faster. It is highly recommended to use the right set of tags while searching or adding your own cheats, as it helps to find things quickly.
+In general, even though we can search the body part of cheats in their own ways via `cheat` or `navi` tool in-built options, but using tags would help us find things even much faster. It is highly recommended to use the right set of tags while searching or adding your own cheats, as it helps to find things quickly.
 
 | Tag               | Description                                               |
 | :---              |    :----                                                  |
