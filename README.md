@@ -147,7 +147,7 @@
 
 :dart: Search Tags <a name="tags"></a>
 ========================
-In generally, even though we can search the body part of cheats in their own ways via `cheat` or `navi` tool in-built options, but using tags would help us find things even much faster. It is highly recommended to use the right set of tags while adding your own cheats, as it could help others find things quickly. When you would want to introduce any new tags during addition of new cheats into the tools database please update this below table for everyone's reference.
+In generally, even though we can search the body part of cheats in their own ways via `cheat` or `navi` tool in-built options, but using tags would help us find things even much faster. It is highly recommended to use the right set of tags while searching or adding your own cheats, as it helps to find things quickly.
 
 | Tag               | Description                                               |
 | :---              |    :----                                                  |
@@ -165,3 +165,6 @@ In generally, even though we can search the body part of cheats in their own way
 | rad               |  Device characteristics functions                         |
 | anomaly           |  Anomaly detection functions                              |
 | hunting           |  Generic hunting functions                                |
+
+> :bangbang: **NOTE:** <br/>
+> When you would want to introduce any new tags, along with the new sets of function definitions into any of these tools cheat database, please update the **[Search tags](#tags)** table without fail. This would not only help you but others also.
