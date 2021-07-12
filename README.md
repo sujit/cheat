@@ -33,7 +33,7 @@ cheat
         tags: [ awake ]
         readonly: false
     ```
-6. Now execute `cheat` to show Awake cheats! 😻
+6. Now execute `cheat awake_<TAB>` to show all Awake cheats! 😻
 
 *Usage*
 ---------------------------
