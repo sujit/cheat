@@ -97,7 +97,7 @@
   ```bash
   cheat -e awake_bruteForce
   ```
-  > :bangbang: **NOTE:**
+  > :bangbang: **NOTE:** <br/>
   > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
