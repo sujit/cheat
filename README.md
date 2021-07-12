@@ -161,7 +161,8 @@ In general, even though we can search the body part of cheats in their own ways 
 | eaql              |  All EAQL functions                                       |
 | builtins          |  Built-in functions (any, all)                            |
 | tagging           |  Device tagging functions                                 |
-| csv               |  CSV data view and export                                 |
+| csv               |  CSV data format view and export                          |
+| export            |  Data format view and export                              |
 | rad               |  Device characteristics functions                         |
 | anomaly           |  Anomaly detection functions                              |
 | hunting           |  Generic hunting functions                                |
