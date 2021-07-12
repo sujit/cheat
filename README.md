@@ -71,6 +71,7 @@
   cheat -l -t tagging             # Device tagging EAQL functions
   cheat -l -t builtins            # Show builtins e.g. any, all
   ```
+  > **NOTE:** Tag names are case-sensitive for `cheat` but not for `navi` tool.
 
 * View a cheat
   ```bash
