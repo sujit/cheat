@@ -129,3 +129,4 @@ navi
    * bruteforce
    * differentactivity
    * getactivities
+* Pressing `<Enter>` would STDOUT the cheat for the selected option.
