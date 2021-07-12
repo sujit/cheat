@@ -1,8 +1,10 @@
-| Tool        | HOWTO steps                                  |
-| ----------- | ------------------------------------------   |
-| cheat       | [URL](https://github.com/sujit/cheat#cheat)  |
-| navi        | [URL](https://github.com/sujit/cheat#navi)   |
-
+# Table of Contents
+1. [Cheat](cheat#cheat)
+   * [Example2](cheat#installation)
+   * [Usage](cheat#installation)
+2. [Navi](navi#navi)
+   * [Example2](navi#installation)
+   * [Usage](navi#installation)
 
 cheat
 ========================
@@ -136,3 +138,9 @@ navi
    * differentactivity
    * getactivities
 * Pressing `<Enter>` would STDOUT the cheat for the selected option.
+
+
+| Tool        | HOWTO steps                                  |
+| ----------- | ------------------------------------------   |
+| cheat       | [URL](https://github.com/sujit/cheat#cheat)  |
+| navi        | [URL](https://github.com/sujit/cheat#navi)   |
