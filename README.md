@@ -65,9 +65,9 @@
   cheat -l -t ava                 # AVA Functions
   cheat -l -t stats               # EAQL functions returning statistical data
   cheat -l -t visualization       # Visualization
-  cheat -l -t bruteForce          # Bruteforce EAQL functions
+  cheat -l -t bruteforce          # Bruteforce EAQL functions
   cheat -l -t rad                 # Threat hunting anomaly functions (anomaly,rad,hunting)
-  cheat -l -t differentActivity   # Chaining EAQL functions
+  cheat -l -t differentactivity   # Chaining EAQL functions
   cheat -l -t tagging             # Device tagging EAQL functions
   cheat -l -t builtins            # Show builtins e.g. any, all
   ```
