@@ -135,7 +135,8 @@
 *Usage* <a name="naviusage"></a>
 ------------------------
 
-*  ```bash
+*  Execute navi (print mode, in-stead of executing commands)
+   ```bash
    navi --print
    ```
 *  Search for the tags like we did for "cheat" tool. Below are few examples:
