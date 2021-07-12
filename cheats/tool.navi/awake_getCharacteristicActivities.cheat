@@ -1,4 +1,4 @@
-% getCharacteristicActivities,eaql,awake
+% getCharacteristicActivities,rad,eaql,awake
 
 # (Experimental) Pull device characteristics artifacts "first" followed-by activities
 util.db.getCharacteristicActivities
