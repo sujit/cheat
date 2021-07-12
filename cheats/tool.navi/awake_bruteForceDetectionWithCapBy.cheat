@@ -1,4 +1,4 @@
-% bruteForce,bruteForceDetectionWithCapBy,eaql,awake
+% bruteforce,bruteForceDetectionWithCapBy,eaql,awake
 
 # Bruteforce detection with cluster capping (optimized)
 util.db.bruteForceDetectionWithCapBy ["device", "activity.ip.destination"]
