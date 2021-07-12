@@ -98,7 +98,7 @@
   cheat -e awake_bruteForce
   ```
   > :bangbang: **NOTE:** <br/>
-  > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
+  > `editor` attribute value needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
 :dart: navi <a name="navi"></a>
