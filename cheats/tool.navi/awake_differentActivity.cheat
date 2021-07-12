@@ -1,4 +1,4 @@
-% differentActivity,chainDifferent,eaql,awake
+% differentactivity,chainDifferent,eaql,awake
 
 # Match (ordered) activities within 2s
 constrainQueriesWithDevices [
