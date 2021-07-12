@@ -118,7 +118,13 @@ navi <a name="navi"></a>
     $chmod +x /usr/local/bin/fzf /usr/local/bin/navi
     $navi
     ```
-3. Copy all navi-related cheats from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.navi)
+3. Copy all navi-related cheats from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.navi) to the right folder. To know your existing cheats path, use the following command `navi info cheats-path`. In my case it prints something like:
+   ```
+   "/Users/sujit/Library/Application Support/navi/cheats/awake__cheats"
+   ```
+
+   > :bangbang: **NOTE:** <br/>
+   > You need to create a folder `awake__cheats` inside the above printed directory path, where the Awake related cheat files should be copied to.
 
 *Usage* <a name="naviusage"></a>
 ------------------------
