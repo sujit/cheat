@@ -1,4 +1,4 @@
-% csv,toCsv,toCsv.uniqueBy,eaql,awake
+% csv,toCsv,toCsv.uniqueBy,export,eaql,awake
 
 # Show unique results (e.g SMB Filenames) by a field attribute
 util.db.getActivities ["activity.smb.file.name"]
