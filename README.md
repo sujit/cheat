@@ -79,12 +79,11 @@
   cheat awake_exceptionBase       # Awake exception template
   cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
   cheat awake_any                 # any built-in function usage example
-  cheat brute<TAB>                # Fuzzy search that auto-fills "awake_bruteForce" 💖
   cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal string matches ✨
   cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
   ```
 
-* Fuzzyy search
+* Fuzzy search
   ```bash
   cheat brute<TAB>                # Fuzzy search that auto-fills "awake_bruteForce" 💖
   ```
