@@ -1,3 +1,9 @@
+| Tool        | HOWTO steps                                  |
+| ----------- | ------------------------------------------   |
+| cheat       | [URL](https://github.com/sujit/cheat#cheat)  |
+| navi        | [URL](https://github.com/sujit/cheat#navi)   |
+
+
 cheat
 ========================
 
