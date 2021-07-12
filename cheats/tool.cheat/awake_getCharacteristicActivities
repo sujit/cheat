@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ anomaly, rad, getCharacteristicActivities, eaql ]
+tags: [ rad, getCharacteristicActivities, eaql ]
 ---
 
 # Pull device characteristics artifacts "first" followed-by
