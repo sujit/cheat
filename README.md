@@ -33,7 +33,8 @@ cheat
         tags: [ awake ]
         readonly: false
     ```
-6. Now execute `cheat awake_<TAB>` to show all Awake cheats! 😻
+6. Copy all cheats flat files from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.cheat)
+7. Execute `cheat awake_<TAB>` to show all Awake cheats! 😻
 
 *Usage*
 ---------------------------
@@ -109,8 +110,22 @@ navi
     $chmod +x /usr/local/bin/fzf /usr/local/bin/navi
     $navi
     ```
+3. Copy all navi-related cheats from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.navi)
 
 *Usage*
 ------------------------
 
-* Test message
+*  ```bash
+   navi --print
+   ```
+*  Search for the tags like we did for "cheat" tool. Below are few examples:
+   * awake
+   * tagging
+   * stats
+   * visualization
+   * anomaly
+   * builtins
+   * ava
+   * bruteforce
+   * differentactivity
+   * getactivities
