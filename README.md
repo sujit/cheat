@@ -136,23 +136,14 @@
 *Usage* <a name="naviusage"></a>
 ------------------------
 
-*  Execute navi (print mode, in-stead of executing commands)
+* Execute navi (print mode, in-stead of executing commands)
    ```bash
    navi --print
    ```
-*  Search for the tags like we did for "cheat" tool. Below are few examples:
-   * awake
-   * tagging
-   * stats
-   * visualization
-   * anomaly
-   * rad
-   * builtins
-   * ava
-   * bruteforce
-   * differentactivity
-   * getactivities
-* Pressing `<Enter>` would STDOUT the cheat for the selected option.
+* Search for any [tag](#tags) listed in the table:
+* Pressing `<Enter>` would print the cheat in STDOUT stream for the selected tag. 
+  > :bangbang: **NOTE:** <br/>
+  > Since fuzzy search is possible using navi tool's `interactive mode`, you can also search for tags, part of descriptions, or even the body of any function definitions as well.
 
 :dart: Search Tags <a name="tags"></a>
 ========================
