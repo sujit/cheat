@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ bruteForce, chainSame, eaql ]
+tags: [ bruteforce, chainSame, eaql ]
 ---
 
 # Match if the same activity takes place 300 times (within 5s)
