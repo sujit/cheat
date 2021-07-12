@@ -58,15 +58,15 @@
   cheat -l
   ```
 
-* Search tags
+* Search tags (complete tags list mapped [here](#tags))
   ```bash
   cheat -l -t <tagname>           # Custom tag name goes here
-  cheat -l -t awake               # Show all (global catch-all) awake tagged functions
+  cheat -l -t awake               # Show all (superset) awake tagged functions
   cheat -l -t ava                 # AVA Functions
   cheat -l -t stats               # EAQL functions returning statistical data
   cheat -l -t visualization       # Visualization
   cheat -l -t bruteForce          # Bruteforce EAQL functions
-  cheat -l -t [anomaly|rad]       # Threat hunting anomaly functions (anomaly,rad,hunting)
+  cheat -l -t rad                 # Threat hunting anomaly functions (anomaly,rad,hunting)
   cheat -l -t differentActivity   # Chaining EAQL functions
   cheat -l -t tagging             # Device tagging EAQL functions
   cheat -l -t builtins            # Show builtins e.g. any, all
@@ -80,13 +80,17 @@
   cheat awake_exceptionBase       # Awake exception template
   cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
   cheat awake_any                 # any built-in function usage example
+  ```
+
+* Search inside body of cheats
+  ```bash
   cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal string matches ✨
   cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
   ```
 
 * Fuzzy search
   ```bash
-  cheat brute<TAB>                # Fuzzy search that auto-fills "awake_bruteForce" 💖
+  cheat brute<TAB>                # <TAB>char auto-suggests "awake_bruteForce" 💖
   ```
 
 * Edit/modify a cheat :warning:
@@ -136,12 +140,12 @@
 *Usage* <a name="naviusage"></a>
 ------------------------
 
-* Execute navi (print mode, in-stead of executing commands)
+1. Execute navi (print mode, in-stead of executing commands)
    ```bash
    navi --print
    ```
-* Search for any [tag](#tags) listed in the table:
-* Pressing `<Enter>` would print the cheat in STDOUT stream for the selected tag. 
+2. Type-in the tag name listed in [this table](#tags) to see the matches
+3. Pressing `<Enter>` would print the cheat in STDOUT stream for the selected tag. 
   > :bangbang: **NOTE:** <br/>
   > Since fuzzy search is possible using navi tool's `interactive mode`, you can also search for tags, part of descriptions, or even the body of any function definitions as well.
 
