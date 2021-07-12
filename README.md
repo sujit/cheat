@@ -29,15 +29,15 @@
     ```bash
     $cheat -d
     ```
-5. Create a new folder named "awake"
+4. Create a new folder named "awake"
     ```bash
     $mkdir -p /home/<username>/.config/cheat/cheatsheets/awake
     ```
-4. Open "cheat" YAML config file
+5. Open "cheat" YAML config file
     ```bash
     $vim /home/<username>/.config/cheat/conf.yml
     ```
-5. Add a new and custom entry for Awake cheats
+6. Add a new and custom entry for Awake cheats
     ```yaml
     # New custom entry
     # Awake cheats: https://github.com/sujit/cheat/tree/main/cheats/tool.cheat
@@ -46,8 +46,9 @@
         tags: [ awake ]
         readonly: false
     ```
-6. Copy all cheats flat files from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.cheat)
-7. Execute `cheat awake_<TAB>` to show all Awake cheats! 😻
+7. Copy all cheats flat files from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.cheat)
+8. Execute `cheat awake_<TAB>` command, and it should show all Awake's cheats.
+
 
 *Usage* <a name="cheatusage"></a>
 ---------------------------
