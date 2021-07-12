@@ -5,6 +5,7 @@
 2. [Navi](#navi)
    * [Installation](#naviinstall)
    * [Usage](#naviusage)
+3. [Search tags](#tags)
 
 :dart: cheat <a name="cheat"></a>
 ========================
@@ -152,3 +153,24 @@
    * differentactivity
    * getactivities
 * Pressing `<Enter>` would STDOUT the cheat for the selected option.
+
+:dart: Search Tags <a name="tags"></a>
+========================
+In generally, even though we can search the body part of cheats in their own ways via `cheat` or `navi` tool in-built options, but using tags would help us find things even much faster. It is highly recommended to use the right set of tags while adding your own cheats, as it could help others find things quickly. When you would want to introduce any new tags during addition of new cheats into the tools database please update this below table for everyone's reference.
+
+| Tag               | Description                                               |
+| :---              |    :----                                                  |
+| awake             |  All Awake functions (superset of everything)             |
+| ava               |  AVA functions                                            |
+| exception         |  Exception framework preambles                            |
+| bruteforce        |  Bruteforce detection                                     |
+| differentactivity |  Chaining different activities                            |
+| stats             |  Statistical data & aggregations                          |
+| visualization     |  Data visualization functions                             |
+| eaql              |  All EAQL functions                                       |
+| builtins          |  Built-in functions (any, all)                            |
+| tagging           |  Device tagging functions                                 |
+| csv               |  CSV data view and export                                 |
+| rad               |  Device characteristics functions                         |
+| anomaly           |  Anomaly detection functions                              |
+| hunting           |  Generic hunting functions                                |
