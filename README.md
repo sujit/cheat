@@ -126,7 +126,7 @@
     ```
 3. Copy all navi-related cheats from this [absolute URL path](https://github.com/sujit/cheat/tree/main/cheats/tool.navi) to the right folder. To know your existing cheats path, use the following command `navi info cheats-path`. In my case it prints something like:
    ```
-   "/Users/sujit/Library/Application Support/navi/cheats/awake__cheats"
+   "/Users/sujit/Library/Application Support/navi/cheats"
    ```
 
    > :bangbang: **NOTE:** <br/>
