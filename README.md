@@ -75,7 +75,7 @@ cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal 
 cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
 ```
 
-* Edit/modify a cheat :warning:
+* :warning: Edit/modify a cheat
 ```bash
 cheat -e awake_bruteForce
 ```
@@ -88,7 +88,7 @@ navi
 *Installation*
 ------------------------
 
-1. Download both the "fzf", "navi" binaries:
+1. Download the binaries:
     * fzf
         * [linux](https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz)
         * [mac](https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-darwin_amd64.zip)
@@ -97,6 +97,8 @@ navi
         * [linux](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-unknown-linux-musl.tar.gz)
         * [mac](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-apple-darwin.tar.gz)
         * [windows](https://github.com/denisidoro/navi/releases/download/v2.16.0/navi-v2.16.0-x86_64-pc-windows-gnu.zip)
+
+    :warning: **NOTE:** `navi` won't work without `fzf` being installed.
 2. Run the following commands (linux) to install:
     ```bash
     $wget https://github.com/junegunn/fzf/releases/download/0.27.2/fzf-0.27.2-linux_amd64.tar.gz
