@@ -48,48 +48,53 @@
 ---------------------------
 
 * Show all tags in the local DB
-```bash
-cheat -T  # Show all tags
-```
+  ```bash
+  cheat -T  # Show all tags
+  ```
 
 * Show all cheats (regardless of tags)
-```bash
-cheat -l
-```
+  ```bash
+  cheat -l
+  ```
 
 * Search tags
-```bash
-cheat -l -t <tagname>         # Custom tag name goes here
-cheat -l -t awake             # Show all (global catch-all) awake tagged functions
-cheat -l -t ava               # AVA Functions
-cheat -l -t stats             # EAQL functions returning statistical data
-cheat -l -t visualization     # Visualization
-cheat -l -t bruteForce        # Bruteforce EAQL functions
-cheat -l -t [anomaly|rad]     # Threat hunting anomaly functions (anomaly,rad,hunting)
-cheat -l -t differentActivity # Chaining EAQL functions
-cheat -l -t tagging           # Device tagging EAQL functions
-cheat -l -t builtins          # Show builtins e.g. any, all
-```
+  ```bash
+  cheat -l -t <tagname>         # Custom tag name goes here
+  cheat -l -t awake             # Show all (global catch-all) awake tagged functions
+  cheat -l -t ava               # AVA Functions
+  cheat -l -t stats             # EAQL functions returning statistical data
+  cheat -l -t visualization     # Visualization
+  cheat -l -t bruteForce        # Bruteforce EAQL functions
+  cheat -l -t [anomaly|rad]     # Threat hunting anomaly functions (anomaly,rad,hunting)
+  cheat -l -t differentActivity # Chaining EAQL functions
+  cheat -l -t tagging           # Device tagging EAQL functions
+  cheat -l -t builtins          # Show builtins e.g. any, all
+  ```
 
 * View a cheat
-```bash
-cheat awake_<TAB>               # Show all cheats with `awake_` as prefix
-cheat awake_bruteForce          # bruteForce EAQL function usage
-cheat awake_differentActivity   # chainDifferent EAQL function usage
-cheat awake_exceptionBase       # Awake exception template
-cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
-cheat awake_any                 # any built-in function usage example
-cheat brute<TAB>                # Fuzzy search that auto-fills "awake_bruteForce" 💖
-cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal string matches ✨
-cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
-```
+  ```bash
+  cheat awake_<TAB>               # Show all cheats with `awake_` as prefix
+  cheat awake_bruteForce          # bruteForce EAQL function usage
+  cheat awake_differentActivity   # chainDifferent EAQL function usage
+  cheat awake_exceptionBase       # Awake exception template
+  cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
+  cheat awake_any                 # any built-in function usage example
+  cheat brute<TAB>                # Fuzzy search that auto-fills "awake_bruteForce" 💖
+  cheat -cs "toCsv"               # Seach inside all cheats where "toCsv" literal string matches ✨
+  cheat -crs "toCsv\.uni"         # Search inside all cheats for the given RegEx pattern 🔥
+  ```
+
+* Fuzzyy search
+  ```bash
+  cheat brute<TAB>                # Fuzzy search that auto-fills "awake_bruteForce" 💖
+  ```
 
 * Edit/modify a cheat :warning:
-```bash
-cheat -e awake_bruteForce
-```
-> :bangbang: **NOTE:**
-> `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
+  ```bash
+  cheat -e awake_bruteForce
+  ```
+  > :bangbang: **NOTE:**
+  > `editor` macro needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
 
 :dart: navi <a name="navi"></a>
