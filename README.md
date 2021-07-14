@@ -82,7 +82,7 @@
   ```bash
   cheat awake_<TAB>               # Show all cheats with `awake_` as prefix
   cheat awake_bruteForce          # bruteForce EAQL function usage
-  cheat awake_differentActivity   # chainDifferent EAQL function usage
+  cheat awake_differentactivity   # chainDifferent EAQL function usage
   cheat awake_exceptionBase       # Awake exception template
   cheat awake_toCsv.uniqueBy      # Example usage for toCsv.uniqueBy EAQL function
   cheat awake_any                 # any built-in function usage example
