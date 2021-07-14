@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ visualization, stats, dceRpcOpnumBarChart, eaql ]
+tags: [ visualization, stats, dcerpcOpnumBarChart, eaql ]
 ---
 
 # View bar chart for a DCERPC Endpoint map identifier
