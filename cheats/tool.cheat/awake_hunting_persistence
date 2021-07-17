@@ -1,0 +1,7 @@
+---
+// syntax: javascript
+tags: [ hunting, persistence, ava, widenet, eaql ]
+---
+
+# Find highly probable malicious set of domains (last 2 days)
+recipes.hunting.persistence.v2WideNetAvaAnalyzed 2
