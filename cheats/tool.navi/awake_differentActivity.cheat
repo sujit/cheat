@@ -7,7 +7,7 @@ constrainQueriesWithDevices [
 ] |> util.filter.differentActivityWithinTimeWindowBySourceDevice 2s
 |> workbench.stream.ofActivitiesToWorkbenchResults
 
-# Match (ordered) activities within 2s where dest_ip are same 
+# Match (ordered) activities within 2s where dest_ip are same
 constrainQueriesWithDevices [
    allExceptionConditionsAreFalse && AQL.Expression1,
    allExceptionConditionsAreFalse && AQL.Expression2
