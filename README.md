@@ -6,6 +6,7 @@
 2. [Navi](#navi)
    * [Installation](#naviinstall)
    * [Usage](#naviusage)
+   * [Demo](#demonavi)
 3. [Search tags](#tags)
 
 :dart: cheat <a name="cheat"></a>
@@ -164,7 +165,7 @@ You can download a terminal
 
 *Demo* <a name="demonavi"></a>
 -------------------------
-![Demo](https://github.com/sujit/cheat/blob/main/screenshots/demo_navi.gif)
+![Demo](https://github.com/sujit/cheat/blob/main/screenshots/demo_navi2.gif)
 
 :dart: Search Tags <a name="tags"></a>
 ========================
