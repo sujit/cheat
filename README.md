@@ -110,7 +110,9 @@
 *Demo* <a name="democheat"></a>
 ---------------------------
 
-![Demo](http://coolstats.mooo.com:8000/demo_cheat.gif)
+You can download a terminal 
+<!-- ![Demo](http://coolstats.mooo.com:8000/demo_cheat.gif) -->
+[Demo](http://coolstats.mooo.com:8000/demo_cheat.gif "Demo")
 
 :dart: navi <a name="navi"></a>
 ========================
@@ -159,6 +161,10 @@
 3. Pressing `<Enter>` would print the cheat in STDOUT stream for the selected tag. 
   > :bangbang: **NOTE:** <br/>
   > Since fuzzy search is possible using navi tool's `interactive mode`, you can also search for tags, part of descriptions, or even the body of any function definitions as well.
+
+*Demo* <a name="demonavi"></a>
+-------------------------
+![Demo](https://github.com/sujit/cheat/blob/main/screenshots/demo_navi.gif)
 
 :dart: Search Tags <a name="tags"></a>
 ========================
