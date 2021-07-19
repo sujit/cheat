@@ -111,9 +111,7 @@
 *Demo* <a name="democheat"></a>
 ---------------------------
 
-You can download a terminal 
-<!-- ![Demo](http://coolstats.mooo.com:8000/demo_cheat.gif) -->
-[Demo](http://coolstats.mooo.com:8000/demo_cheat.gif "Demo")
+[Click here](http://coolstats.mooo.com:8000/demo_cheat.gif) to view the recording.
 
 :dart: navi <a name="navi"></a>
 ========================
