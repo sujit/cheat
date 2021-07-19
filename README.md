@@ -2,6 +2,7 @@
 1. [Cheat](#cheat)
    * [Installation](#cheatinstall)
    * [Usage](#cheatusage)
+   * [Demo](#democheat)
 2. [Navi](#navi)
    * [Installation](#naviinstall)
    * [Usage](#naviusage)
@@ -106,6 +107,10 @@
   > :bangbang: **NOTE:** <br/>
   > `editor` attribute value needs to be set in `~/.config/cheat/conf.yml` e.g `editor: vim`
 
+*Demo* <a name="democheat"></a>
+---------------------------
+
+![Demo](http://coolstats.mooo.com:8000/demo_cheat.gif)
 
 :dart: navi <a name="navi"></a>
 ========================
