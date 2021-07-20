@@ -10,7 +10,7 @@ util.db.getActivities ["activity.smb.file.name"]
             "destIP"
    ] 
 
-# View TLS SNI, Certiicates (valid till) dates
+# View TLS SNI, Certificates (valid till) dates
 util.db.getActivities ["activity.tls.handshake.client.server_name","activity.tls.server.certificate.valid_to"]
    (activity.protocol == "TLS") |>
    toCsv [
