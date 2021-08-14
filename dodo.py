@@ -1,32 +1,32 @@
 from platform import system
 import subprocess
-from os import environ, path
+import os
 from icecream import ic
 from pathlib import Path
 from eliot import start_action, to_file
 
 to_file(open("exec.log", "w"))
+BINPATH = [str(Path.home()) + '/.local/bin']
 
 
-def do_getPlatform():
-    PATHLIST = [str(Path.home()) + '/.local/bin']
-
+def do_preChecks_navi():
     try:
-        with start_action(action_type="getPlatform",
-                          target_os=system().lower()):
-            if system().lower() == 'linux':
+        with start_action(action_type="preChecks_navi",
+                          TARGET_OS=system().lower()):
 
+            if system().lower() == 'linux':
                 # Check if `~/.local/bin` is present, create otherwise
                 with start_action(action_type='checkDir',
-                                  target_dir=PATHLIST[0]):
-                    if path.isdir(PATHLIST[0]):
+                                  DIR_NAME=BINPATH[0]):
+                    if os.path.isdir(BINPATH[0]):
                         pass
                     else:
                         try:
                             with start_action(action_type='createDir'):
-                                cmd = subprocess.run(['md', '-p', PATHLIST[0]])
+                                cmd = subprocess.run(['md', '-p', BINPATH[0]])
                                 if cmd.returncode == 0:
-                                    ic('[+] Create: "~/.local/bin/" successful')
+                                    ic('[+] "~/.local/bin/" directory created'
+                                       )
                                     pass
                                 else:
                                     ic('[-]Failed to create directory')
@@ -35,11 +35,17 @@ def do_getPlatform():
 
                 # Deal with $PATH environment variable
                 with start_action(action_type='checkEnvironVar',
-                                  basePath=str(Path.home())):
-                    if str(Path.home()) + '/.local/bin' in environ['PATH']:
+                                  USER_HOME=str(Path.home())):
+                    if str(Path.home()) + '/.local/bin' in os.environ['PATH']:
                         pass
                     else:
-                        print('bummer.. we need to feed path to $PATH')
+                        try:
+                            with start_action(action_type='appendToPATH',
+                                              USER_HOME=str(Path.home())):
+                                os.environ['PATH'] = os.pathsep.join(
+                                    [BINPATH[0], os.environ['PATH']])
+                        except Exception as e:
+                            raise str(e)
             elif system().lower() == 'darwin':
                 ic('Do Mac OS X stuff here')
             else:
@@ -48,9 +54,5 @@ def do_getPlatform():
         raise str(e)
 
 
-def task_print_echo_to_stdout():
-    """Pre-checks followed-by tool install"""
-    return {
-        'actions': [do_getPlatform],
-        'verbosity': 2
-    }
+if __name__ == "__main__":
+    do_preChecks_navi()
