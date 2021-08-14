@@ -1,0 +1,14 @@
+aiocontextvars==0.2.2
+asttokens==2.0.5
+boltons==21.0.0
+colorama==0.4.4
+contextvars==2.4
+eliot==1.13.0
+executing==0.8.0
+icecream==2.1.1
+immutables==0.16
+Pygments==2.9.0
+pyrsistent==0.18.0
+six==1.16.0
+typing-extensions==3.10.0.0
+zope.interface==5.4.0
