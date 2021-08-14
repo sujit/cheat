@@ -9,9 +9,9 @@ to_file(open("exec.log", "w"))
 BINPATH = [str(Path.home()) + '/.local/bin']
 
 
-def do_preChecks_navi():
+def do_preChecks():
     try:
-        with start_action(action_type="preChecks_navi",
+        with start_action(action_type="preChecks",
                           TARGET_OS=system().lower()):
 
             if system().lower() == 'linux':
@@ -55,4 +55,4 @@ def do_preChecks_navi():
 
 
 if __name__ == "__main__":
-    do_preChecks_navi()
+    do_preChecks()
