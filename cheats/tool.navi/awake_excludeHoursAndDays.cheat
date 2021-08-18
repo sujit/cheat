@@ -1,3 +1,7 @@
+% excludedaytime,eaql,awake
+
+# Model match only on specific hours of the day (day/hr exclusion)
+
 /* Example wrapper recipe: config.time.BusinessHours */
 (
    map (\x -> {day: x, start: 8h, end: 17h })
