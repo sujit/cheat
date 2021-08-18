@@ -1,0 +1,15 @@
+---
+// syntax: javascript
+tags: [ all,excludedaytime,eaql,awake ]
+---
+
+# Model match only on specific hours of the day (day/hr exclusion)
+
+/* Example wrapper recipe: config.time.BusinessHours */
+(
+   map (\x -> {day: x, start: 8h, end: 17h })
+      [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+)
+
+/* Now call using util.db.excludeDayAndTime */
+util.db.excludeDayAndTime config.time.BusinessHours (query)
