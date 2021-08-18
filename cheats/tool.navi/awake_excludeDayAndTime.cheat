@@ -1,6 +1,6 @@
 % excludedaytime,eaql,awake
 
-# Model match only on specific hours of the day (day/hr exclusion)
+# Model match only on specific hours of the day (day/hour exclusion)
 
 /* Example wrapper recipe: config.time.BusinessHours */
 (
