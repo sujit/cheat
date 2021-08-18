@@ -1,6 +1,6 @@
 ---
 // syntax: javascript
-tags: [ all,excludedaytime,eaql,awake ]
+tags: [ excludedaytime,eaql,awake ]
 ---
 
 # Model match only on specific hours of the day (day/hr exclusion)
